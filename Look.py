@@ -6,4 +6,7 @@ app.layout = html.Div(
 			" and the number of x currently"
 			" between y and z".
 			),
-			dcc.Graph
+			dcc.Graph(
+				figure={
+					"data": [
+					{
