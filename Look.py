@@ -10,3 +10,9 @@ app.layout = html.Div(
 				figure={
 					"data": [
 					{
+							"x": data["Date"],
+							"y": data["AveragePrice"],
+							"type": "lines",
+					},
+				],
+				"layout": {"title": "AveragePrice of Avocados"},
